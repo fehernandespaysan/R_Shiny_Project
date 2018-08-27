@@ -1,0 +1,38 @@
+---
+title: "Data Product Final Project"
+author: "Fernanda H. P. Gomes"
+date: "August 27, 2018"
+output: ioslides_presentation
+---
+
+## Executive Summary
+
+The 'Choosing my new car' tool was created as a final project of the 'Developing Data Project' course.
+
+
+### Tool scope and objective
+
+The tool aims to support a buyer in a journey to buy a new car
+
+Based on historical data and the buyer's preferences, the tool predict how many miles per gallon the car may perform.
+
+Preferences inputed by the user: transmission, number of cylinders, and Horse Power.
+
+## How to use the tool
+The tool is structured with 3 selection panels in the left that may be filed by the user: the user may determine trasmission desired, after that the number of cyliderns, and the gross horse power.
+
+The tool will display the milles per gallon predicted for the desired car based on regression model.
+
+## Model
+To predict the Miles per Gallon the tool uses a linear regression model
+```{r}
+model<- lm(mpg ~ cyl + hp + am, data = mtcars)
+model$coefficients
+```
+
+## Links for the tool and the documentation
+
+Below are the link for the toll and for all the code and documentation made available in github.
+
+- [link for the tool](https://fehernandespaysan.shinyapps.io/myapp/)
+- [link for the github repository](https://github.com/fehernandespaysan/dataproduct)
