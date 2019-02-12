@@ -12,6 +12,7 @@ The goal is to create a data project using R Shiny application.
 
 **myapp folder** - here you can find the the 'server.R' and 'ui.R' documents used to create the app.
 
+
 Please feel free to contribute.
 
 
