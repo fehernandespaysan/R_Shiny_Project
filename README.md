@@ -4,7 +4,7 @@ Data Product created as a final project for the course 'Data Product' at Courser
 
 The goal is to create a data project using R Shiny application.
 
-Documents available:
+***Documents available***:
 
 **Data Product Final Project (presentation).Rmd** - presentation created to present the project. Here you can find all the steps performed and links to the presentation and app.
 
