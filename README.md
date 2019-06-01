@@ -2,7 +2,9 @@
 
 Data Product created as a final project for the course 'Data Product' at Coursera.
 
-The goal is to create a data project using R Shiny application.
+The goal is to create a data project using R Shiny application. 
+
+Shiny is an R package that makes it easy to build interactive web apps straight from R. You can host standalone apps on a webpage or embed them in R Markdown documents or build dashboards ([more info](https://shiny.rstudio.com/)). 
 
 ***Documents available***:
 
